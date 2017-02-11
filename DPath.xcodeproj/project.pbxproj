@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B5C7DF01D005A7300D78F09 /* ScrollableMatrixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5C7DEF1D005A7300D78F09 /* ScrollableMatrixView.swift */; };
+		1B5C7DF41D005BFD00D78F09 /* MatrixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5C7DF31D005BFD00D78F09 /* MatrixView.swift */; };
+		1B5C7DF61D00672300D78F09 /* NewMatrixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5C7DF51D00672300D78F09 /* NewMatrixViewController.swift */; };
+		1B5C7DF81D007E5B00D78F09 /* ElementFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5C7DF71D007E5B00D78F09 /* ElementFormatter.swift */; };
+		1BAD17751D02A2BF0098F32C /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAD17741D02A2BF0098F32C /* Dijkstra.swift */; };
 		1BAE2B231CFEE33D002275E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE2B221CFEE33D002275E3 /* AppDelegate.swift */; };
 		1BAE2B251CFEE33D002275E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE2B241CFEE33D002275E3 /* ViewController.swift */; };
 		1BAE2B281CFEE33D002275E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAE2B261CFEE33D002275E3 /* Main.storyboard */; };
@@ -14,6 +19,7 @@
 		1BAE2B2D1CFEE33D002275E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAE2B2B1CFEE33D002275E3 /* LaunchScreen.storyboard */; };
 		1BAE2B381CFEE33D002275E3 /* DPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE2B371CFEE33D002275E3 /* DPathTests.swift */; };
 		1BAE2B431CFEE33D002275E3 /* DPathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE2B421CFEE33D002275E3 /* DPathUITests.swift */; };
+		1BAE2B531CFFF381002275E3 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE2B521CFFF381002275E3 /* GraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B5C7DEF1D005A7300D78F09 /* ScrollableMatrixView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableMatrixView.swift; sourceTree = "<group>"; };
+		1B5C7DF31D005BFD00D78F09 /* MatrixView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixView.swift; sourceTree = "<group>"; };
+		1B5C7DF51D00672300D78F09 /* NewMatrixViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewMatrixViewController.swift; path = ../NewMatrixViewController.swift; sourceTree = "<group>"; };
+		1B5C7DF71D007E5B00D78F09 /* ElementFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementFormatter.swift; sourceTree = "<group>"; };
+		1BAD17741D02A2BF0098F32C /* Dijkstra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
 		1BAE2B1F1CFEE33D002275E3 /* DPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BAE2B221CFEE33D002275E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BAE2B241CFEE33D002275E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		1BAE2B3E1CFEE33D002275E3 /* DPathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BAE2B421CFEE33D002275E3 /* DPathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPathUITests.swift; sourceTree = "<group>"; };
 		1BAE2B441CFEE33D002275E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BAE2B521CFFF381002275E3 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +111,13 @@
 			children = (
 				1BAE2B221CFEE33D002275E3 /* AppDelegate.swift */,
 				1BAE2B241CFEE33D002275E3 /* ViewController.swift */,
+				1BAD17741D02A2BF0098F32C /* Dijkstra.swift */,
+				1B5C7DEF1D005A7300D78F09 /* ScrollableMatrixView.swift */,
+				1B5C7DF31D005BFD00D78F09 /* MatrixView.swift */,
+				1BAE2B521CFFF381002275E3 /* GraphView.swift */,
+				1B5C7DF51D00672300D78F09 /* NewMatrixViewController.swift */,
 				1BAE2B261CFEE33D002275E3 /* Main.storyboard */,
+				1B5C7DF71D007E5B00D78F09 /* ElementFormatter.swift */,
 				1BAE2B291CFEE33D002275E3 /* Assets.xcassets */,
 				1BAE2B2B1CFEE33D002275E3 /* LaunchScreen.storyboard */,
 				1BAE2B2E1CFEE33D002275E3 /* Info.plist */,
@@ -261,6 +279,12 @@
 			files = (
 				1BAE2B251CFEE33D002275E3 /* ViewController.swift in Sources */,
 				1BAE2B231CFEE33D002275E3 /* AppDelegate.swift in Sources */,
+				1BAE2B531CFFF381002275E3 /* GraphView.swift in Sources */,
+				1B5C7DF01D005A7300D78F09 /* ScrollableMatrixView.swift in Sources */,
+				1B5C7DF41D005BFD00D78F09 /* MatrixView.swift in Sources */,
+				1B5C7DF61D00672300D78F09 /* NewMatrixViewController.swift in Sources */,
+				1B5C7DF81D007E5B00D78F09 /* ElementFormatter.swift in Sources */,
+				1BAD17751D02A2BF0098F32C /* Dijkstra.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +511,7 @@
 				1BAE2B491CFEE33D002275E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BAE2B4A1CFEE33D002275E3 /* Build configuration list for PBXNativeTarget "DPathTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +520,7 @@
 				1BAE2B4C1CFEE33D002275E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BAE2B4D1CFEE33D002275E3 /* Build configuration list for PBXNativeTarget "DPathUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +529,7 @@
 				1BAE2B4F1CFEE33D002275E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
