@@ -7,3 +7,4 @@
 
 
 ![image](https://github.com/hijerusalem/iOS-Dijkstra-Demo/blob/master/D1.gif)
+![image](https://github.com/hijerusalem/iOS-Dijkstra-Demo/blob/master/D2.gif)
